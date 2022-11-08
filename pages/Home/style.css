@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, label{
+
+    font-size: 20px;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 80px;
+    align-items: center;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 60vh;
+}
+
+.forms input{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+.conteudo{
+    margin-top: 10px;
+}
+
+.adicionais{
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vh;
+    justify-content:first baseline;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.adicionais input{
+    width: 10vh;
+}
+
+.viagem{
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vh;
+    justify-content:first baseline;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.results{
+    position:absolute;
+    right: 200px;
+    top:100px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results label{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.results input{
+    width: 250px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.description textarea{
+    height: 100px;
+    border-radius: 20px;
+    padding: 25px;
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.buttons button{
+    width: 125px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: aqua;
+    color: #000;
+}
+
+.buttons button:hover{
+    background-color: blue;
+}
